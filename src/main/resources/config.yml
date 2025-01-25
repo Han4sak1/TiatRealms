@@ -1,0 +1,13 @@
+#隐藏
+VanishAreas:
+   world:
+      # BLACKLIST: 在列表中的区域内，玩家互不可见，其他情况可见
+      # WHITELIST: 在列表内的区域内，玩家互相可见，其他情况不可见
+      mode: "BLACKLIST"
+      #填TiatAreas的区域Key
+      areas:
+         - "ExampleArea1"
+   world_the_nether:
+      # 全局隐藏
+      mode: "WHITELIST"
+      areas: []
